@@ -1,0 +1,35 @@
+table, th, tr, td {
+	border: 1px solid black;
+}
+
+tr:nth-of-type(2) {
+	background-color:LightBlue;
+}
+tr:nth-of-type(3) {
+	background-color:LightGreen;
+}
+tr:nth-of-type(4) {
+	background-color:LightBlue;
+}
+tr:nth-of-type(5) {
+	background-color:LightGreen;
+}
+tr:nth-of-type(6) {
+	background-color:LightBlue;
+}
+
+.outer-content {
+	background-color:pink;
+	position:relative;
+	width:75%;
+	left:0px;
+	padding-top:20px;
+	padding-bottom:20px;
+	margin-top:20px;
+}
+.inner-content {
+	margin:auto;
+	text-align: center;
+	background-color:LightBlue;
+	width:75%;	
+}
