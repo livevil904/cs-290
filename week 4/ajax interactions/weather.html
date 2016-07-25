@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="UTF-8">
+    <title>Ajax Interactions</title>
+    <script src="script.js"></script>
+  </head>
+  <body>
+	<form>
+		<fieldset>
+			<legend>Weather</legend>
+			Zip:<input type="text" name="zip" id="zip"><br>
+			City, State:<input type="text" name="citystate" id="citystate"><br>
+			<input type="submit" id="weatherSubmit">
+		</fieldset>
+	</form>
+	<div>
+		<h2>Result</h2>
+		<ul>
+			<li><span>Location: </span><span id="location"></span></li>
+			<li><span>Current Temperature: </span><span id="temp"></span></li>
+			<li><span>Humidity: </span><span id="humidity"></span></li>
+		</ul>
+    </div>
+	<br><br>	
+	<form>
+		<fieldset>
+			<legend>Test POST</legend>
+			Input 1:<input type="text" name="input1" id="input1"><br>
+			Input 2:<input type="text" name="input2" id="input2"><br>
+			<input type="submit" id="POSTSubmit">
+		</fieldset>
+	</form>
+	<div>
+		<h2>Result</h2>
+		<ul>
+			<li><span>Input 1 returned: </span><span id="return1"></span></li>
+			<li><span>Input 2 returned: </span><span id="return2"></span></li>
+		</ul>
+    </div>
+		
+  </body>
+</html>
+
+
+
